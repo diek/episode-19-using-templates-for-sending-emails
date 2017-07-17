@@ -12,13 +12,13 @@ This project requires Python, preferably Python 3=>3.5. Python 2.7 should work t
 
 
 ### Installing Mac Linux
-Navigate to your working directory:  
-`git clone repo`  
-`cd episode-19-using-templates-for-sending-emails`  
-`python3 -m venv _env`  
-`pip install -r requirements.txt`  
-For convenience make .manage.py executable  
-`chmod +x manage.py`  
+Navigate to your working directory:
+`git clone repo`
+`cd episode-19-using-templates-for-sending-emails`
+`python3 -m venv _env`
+`pip install -r requirements.txt`
+For convenience make .manage.py executable
+`chmod +x manage.py`
 
 ### And coding style tests
 
@@ -34,10 +34,12 @@ Python code was tested for PEP8 compliance using Flake8
 
 ## Authors
 
-* **Buddy Lindsey, Jr.** 
-* [GoDjango - Tutorial](https://godjango.com/19-using-templates-for-sending-emails/) - Tutorial - Using Templates for Sending Emails
-* [GoDjango - Repo](https://github.com/GoDjango/episode-19-using-templates-for-sending-emails) - Django 1.5 Project Code 
-* **Me**, refactored the code to Django 1.11.3, and Python 3.6
+**Buddy Lindsey, Jr.**  
+* [GoDjango - Tutorial](https://godjango.com/19-using-templates-for-sending-emails/) - Tutorial - Using Templates for Sending Emails   
+* [GoDjango - Repo](https://github.com/GoDjango/episode-19-using-templates-for-sending-emails) - Django 1.5 Project Code  
+
+**Me**
+* refactored the code to Django 1.11.3, and Python 3.6
 
 
 

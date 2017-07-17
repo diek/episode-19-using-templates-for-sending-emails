@@ -1,7 +1,0 @@
-Hello {{ user }},
-
-This is fun stuff going on.
-
-You have purchased: {{ purchase }}
-
-Thanks

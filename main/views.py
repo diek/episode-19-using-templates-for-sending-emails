@@ -10,6 +10,7 @@ def email_txt(request):
 
     ctx = {
         'user': 'buddy',
+        'amt': 5,
         'purchase': 'Books'
     }
 
@@ -34,6 +35,7 @@ def email_html(request):
 
     ctx = {
         'user': 'buddy',
+        'amt': 5,
         'purchase': 'Books'
     }
 
@@ -44,5 +46,6 @@ def email_html(request):
                        to=to)
     msg.content_subtype = 'html'
     msg.send()
-
     return HttpResponse('HTML Email Sent')
+
+

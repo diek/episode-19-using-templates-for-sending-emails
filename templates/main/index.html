@@ -1,1 +1,9 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <h3>Episode 19: Using templates for Sending Emails</h3>
+  <ul class="list-group">
+    <li class="list-group-item"><a href='{% url "main:email_txt" %}'>Send Text Email</a></li>
+    <li class="list-group-item"><a href='{% url "main:email_html" %}'>Send HTML Email</a></li>
+  </ul>
+{% endblock %}

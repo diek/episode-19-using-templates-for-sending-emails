@@ -1,3 +1,5 @@
 _env
 email.db
 *.pyc
+.env
+x.txt

@@ -45,6 +45,7 @@ THIRD_PARTY = ['django_extensions']
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -54,6 +55,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+INTERNAL_IPS = ('127.0.0.1')
+
 
 ROOT_URLCONF = 'emailtemplate.urls'
 
@@ -132,7 +136,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_PORT = os.environ['EMAIL_PORT']
 # EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
 # EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
-# EMAIL_USE_TLS = True
+# EMAIL_USE_TLS = os.environ['EMAIL_USE_TLS']
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to

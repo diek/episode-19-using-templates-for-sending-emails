@@ -6,14 +6,8 @@
   </head>
   <body>
     <div class="container">
-      {% block content %}
       <h2>GoDjango</h2>
-      <h3>Episode 19: Using templates for Sending Emails</h3>
-      <ul class="list-group">
-        <li class="list-group-item"><a href='{% url "main:email_txt" %}'>Send Text Email</a></li>
-        <li class="list-group-item"><a href='{% url "main:email_html" %}'>Send HTML Email</a></li>
-      </ul>
-      {% endblock %}
+      {% block content %}{% endblock %}
     </div>
   </body>
 </html>

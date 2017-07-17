@@ -2,6 +2,6 @@ Hello {{ user }},
 
 This is fun stuff going on.
 
-You have purchased: {{ purchase }}
+You have purchased: {{ amt }} {{ purchase }}
 
 Thanks

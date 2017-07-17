@@ -1,0 +1,8 @@
+Django==1.11.3
+django-debug-toolbar==1.8
+django-extensions==1.8.1
+isort==4.2.15
+pytz==2017.2
+six==1.10.0
+sqlparse==0.2.3
+Werkzeug==0.12.2

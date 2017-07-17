@@ -1,0 +1,19 @@
+{% load static %}
+<!doctype html>
+<html>
+  <head>
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+  {% if messages %}
+    <ul class="messages">
+      {% for message in messages %}
+        <li class="{{ message.tags }}">{{ message }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+    <div class="{{ container_class|default:"container" }}">
+    {% block body %}{% endblock %}
+  </body>
+</html>

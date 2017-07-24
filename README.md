@@ -34,7 +34,8 @@ Python code was tested for PEP8 compliance using Flake8
 
 ## About
 
-Refactored the code to Django 1.11.3, and Python 3.6 based upon Buddy Lindsey, Jr.,’s [GoDjango - Tutorial](https://godjango.com/19-using-templates-for-sending-emails/) - Tutorial - Using Templates for Sending Emails (Buddy used Django 1.5)
+Refactored the code to Django 1.11.3, and Python 3.6 based upon Buddy Lindsey, Jr.,’s   
+[GoDjango - Tutorial](https://godjango.com/19-using-templates-for-sending-emails/) - Using Templates for Sending Emails (Buddy used Django 1.5)
 
 ## Acknowledgments
 
